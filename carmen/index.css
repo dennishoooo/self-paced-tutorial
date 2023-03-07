@@ -1,0 +1,60 @@
+body {
+  background-color: grey;
+  margin: 0px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#outlet {
+  background-color: yellow;
+  font-size: 100px;
+}
+
+#header {
+  background-color: purple;
+  display: flex;
+  justify-content: space-around;
+}
+
+.headerComponent {
+  width: 33%;
+}
+
+#title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#buttons {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+#cardContainer {
+  display: flex;
+  width: 90%;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 20px;
+  background-color: white;
+  width: 42%;
+  height: 150px;
+  border-radius: 5px;
+  margin: 1.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
